@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "181dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2a04cd6fd5047aaa9e2996a40d19405",
+    "_text_": "Submit",
+    "_top_": {
+        "type": "string",
+        "value": "483dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "170dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1f730c9dd684777b0b3131ea98dd039",
+    "id": "Submit",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e4050cb4bc384a4f8b251d879eb2bc2c",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_f0d0a2e537734a4f97fdbb410939c690",
+    "parent": "frmSingUp",
+    "pf": "frmSingUp",
+    "wType": "Button",
+    "zindex": 1
+}

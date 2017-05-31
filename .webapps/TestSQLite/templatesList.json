@@ -1,0 +1,16 @@
+{
+    "android": {
+        "formslist": {
+            "mvcFormObjects": [],
+            "nonmvcFormObjects": [
+                "FormDataGrid",
+                "Home",
+                "Home2"
+            ]
+        },
+        "templatesList": {
+            "mvcTemplateObjects": [],
+            "nonmvcTemplateObjects": []
+        }
+    }
+}

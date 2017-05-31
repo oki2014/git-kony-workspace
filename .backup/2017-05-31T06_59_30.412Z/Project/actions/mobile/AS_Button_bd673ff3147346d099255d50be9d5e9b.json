@@ -1,0 +1,27 @@
+{
+    "AS_Button_bd673ff3147346d099255d50be9d5e9b": {
+        "id": "AS_Button_bd673ff3147346d099255d50be9d5e9b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSingUp",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d85594e994774295b96e944e900059f2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___a3b1c8e5253e433ea8f53e99859b91cd",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "gb3d569636244993b8b0813298a97e2e",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

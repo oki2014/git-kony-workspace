@@ -1,0 +1,27 @@
+{
+    "AS_Form_d91320562bfc42e69971c20bed5b2deb": {
+        "id": "AS_Form_d91320562bfc42e69971c20bed5b2deb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Home2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h11333e1b2504761b7a08cc5b7ea0e1d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e1d90adfc2554b7ba5a7c8b4fe5741cb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createTable",
+            "display": "createTable",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

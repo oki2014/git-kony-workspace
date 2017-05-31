@@ -1,0 +1,95 @@
+{
+    "AS_Button_e668b50475754310ac2c1abf2291fc7e": {
+        "id": "AS_Button_e668b50475754310ac2c1abf2291fc7e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c6ff48899f22466595dd624e0b1f1b6e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j0de17c01f6b4b4abb1b7afcbb1d3374",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var username = self.view.Username.text;\nvar password = self.view.Password.text;\n\ndoTransactionsqlSelect.call(this);\n\n//doTransactionsqlSelect();\ngetData(username,password);",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "IF_CONDITION__f6fe072181764022b726cc0a6c06ac5c",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "frmLogin.Username.text",
+                "operator": "!==",
+                "rightValueType": "value",
+                "rightValue": "null",
+                "leftItemKUID": "c6ff48899f22466595dd624e0b1f1b6e",
+                "leftWidgetKUID": "a4b02191c68a4565bf7512de333e1ddb"
+            }, {
+                "leftValueType": "widgetprop",
+                "leftValue": "frmLogin.Password.text",
+                "operator": "!==",
+                "rightValueType": "value",
+                "rightValue": "null",
+                "leftItemKUID": "c6ff48899f22466595dd624e0b1f1b6e",
+                "leftWidgetKUID": "a71c52b6f9f5414b8ac9742cdfcaf471"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all",
+            "disabled": true
+        }, {
+            "id": "ELSE_CONDITION__f6d30be5b71c45ae84193d4f2a859932",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all",
+            "disabled": true
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___e33940c5d588411f9c76a9dc8cb2069d",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "errorText",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "c6ff48899f22466595dd624e0b1f1b6e",
+            "widgetKUID": "h36c1df4099842108ae9fcffb037dc0c",
+            "isSkinProperty": false,
+            "wType": "Label",
+            "forkedPlatform": "all",
+            "parentId": "ELSE_CONDITION__f6d30be5b71c45ae84193d4f2a859932",
+            "callbackType": null,
+            "disabled": true,
+            "widgetPath": "this.view.errorText"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____dad9aa730e794f4d99fa2aebdfad1d5e",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "errorText",
+            "propertyName": "text",
+            "propertyValue": "Please enter Username &  Password",
+            "itemKUID": "c6ff48899f22466595dd624e0b1f1b6e",
+            "widgetKUID": "h36c1df4099842108ae9fcffb037dc0c",
+            "isSkinProperty": false,
+            "wType": "Label",
+            "forkedPlatform": "all",
+            "parentId": "ELSE_CONDITION__f6d30be5b71c45ae84193d4f2a859932",
+            "disabled": true,
+            "widgetPath": "this.view.errorText"
+        }]
+    }
+}

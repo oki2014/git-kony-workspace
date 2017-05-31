@@ -1,0 +1,33 @@
+{
+    "AS_Button_be9b5577ab57481dab347abd403d604a": {
+        "id": "AS_Button_be9b5577ab57481dab347abd403d604a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormDataGrid",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb790e82b30848e0acb442520ab55df3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e6a276a7026847c6a22053b9d7e93d0e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// var myData = FormDataGrid.dataGrid1.data;\n\n// var basicConf = {message: myData,\n//                  alertType: constants.ALERT_TYPE_INFO, alertTitle: \"Validation\",\n//                  yesLabel: \"ok\", alertHandler: alertCallBack()};\n// var pspCOnf = {};\n// kony.ui.Alert(basicConf, pspCOnf);",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___b94550e28baf4dceb324b3927d125583",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "retrieveData",
+            "display": "retrieveData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

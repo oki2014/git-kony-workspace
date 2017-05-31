@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "61dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s905208130e94a4e9fb3268c4649ec5e",
+    "_text_": "Sign Up",
+    "_top_": {
+        "type": "string",
+        "value": "492dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1f730c9dd684777b0b3131ea98dd039",
+    "id": "btnSignUp",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a8bccafbd93d491c824f5914aec3893c",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_ic255b129b8949c2baa07b03c7cc0ab7",
+    "parent": "frmLogin",
+    "pf": "frmLogin",
+    "wType": "Button",
+    "zindex": 1
+}

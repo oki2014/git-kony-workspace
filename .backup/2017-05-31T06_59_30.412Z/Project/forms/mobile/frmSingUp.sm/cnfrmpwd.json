@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "113dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Re-Enter Password",
+    "_skin_": "s1f56ef631044e1d9aa71deba3dd373b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "157dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "207dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "cnfrmpwd",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "i517abee830643d084793bb6e6274242",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "ontextchange": "AS_TextField_c76b895e11814ab98de9502b6aef6829",
+    "parent": "container",
+    "pf": "frmSingUp",
+    "securetextentry": true,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTable",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "loginId": "",
+            "password": "",
+            "username": ""
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "51dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "78.67%"
+    },
+    "canUpdateUI": true,
+    "cellBorder": "3px solid #5C5C5C",
+    "columnheadersconfig": [
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderTemplate": null,
+            "columnHeaderText": "Login Id",
+            "columnHeaderType": "text",
+            "columnID": "loginId",
+            "columnOnClick": null,
+            "columnText": "Not Defined",
+            "columnType": "text",
+            "columnWidthInPercentage": 33,
+            "isColumnSortable": false,
+            "kuid": "b6c40a1d63a141a28978c315254a816e"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderTemplate": null,
+            "columnHeaderText": "Username",
+            "columnHeaderType": "text",
+            "columnID": "username",
+            "columnOnClick": null,
+            "columnText": "Not Defined",
+            "columnType": "text",
+            "columnWidthInPercentage": 34,
+            "isColumnSortable": false,
+            "kuid": "c51474ebea0548ffbb676a53634bbca2"
+        },
+        {
+            "columnContentAlignment": 5,
+            "columnHeaderTemplate": null,
+            "columnHeaderText": "Password",
+            "columnHeaderType": "text",
+            "columnID": "password",
+            "columnOnClick": null,
+            "columnText": "Not Defined",
+            "columnType": "text",
+            "columnWidthInPercentage": 33,
+            "isColumnSortable": false,
+            "kuid": "f7ba030bec4c48eb8c15bf86e50b91eb"
+        }
+    ],
+    "columnids": [
+        "loginId",
+        "username",
+        "password"
+    ],
+    "columntype": [
+        "text",
+        "text",
+        "text"
+    ],
+    "containerweight": 100,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "FormDataGrid",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "gridlinestyle": "solid",
+    "headerskin": "s62ae145947e4fc39756d7226d5f2e97",
+    "id": "dataGrid1",
+    "info": null,
+    "ismultiselect": false,
+    "isvisible": true,
+    "kuid": "bafbbabfd691436080ea8a6d6656cf64",
+    "name": "kony.ui.DataGrid",
+    "parent": "FormDataGrid",
+    "pf": "FormDataGrid",
+    "rowalternateskin": "sc435896dc0548a0b67f85ebf4cb3bd0",
+    "rowcount": 1,
+    "rowfocusskin": "sb77089a61684d7ea800e1aced9bb0e8",
+    "rownormalskin": "s8f441092625420abf5c6b6ba6be0a99",
+    "selectedcellindex": null,
+    "selectedcellitem": null,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditem": null,
+    "selecteditems": null,
+    "showcolumnheaders": true,
+    "wType": "DataGrid",
+    "zindex": 1
+}

@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Username",
+    "_skin_": "s359292988324863a388b9181598e1a0",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "txtUsername",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "fb135f7063df4d3c9d24381d9f81985d",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "Home",
+    "pf": "Home",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "vizProps": {
+        "lock": false
+    },
+    "wType": "TextField",
+    "zindex": 2
+}

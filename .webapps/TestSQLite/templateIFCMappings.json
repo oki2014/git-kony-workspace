@@ -1,0 +1,17 @@
+{
+    "controllerTemplateInfoMapping": {
+        "android": {}
+    },
+    "controllerformInfoMapping": {
+        "android": {}
+    },
+    "formControllerInfoMapping": {
+        "android": {}
+    },
+    "formsifcMapping": {},
+    "templateControllerInfoMapping": {
+        "android": {}
+    },
+    "templatesifcMapping": {},
+    "userwidgetsifcMapping": {}
+}

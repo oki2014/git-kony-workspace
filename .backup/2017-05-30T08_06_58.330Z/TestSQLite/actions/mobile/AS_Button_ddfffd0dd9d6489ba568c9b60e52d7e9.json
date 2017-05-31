@@ -1,0 +1,33 @@
+{
+    "AS_Button_ddfffd0dd9d6489ba568c9b60e52d7e9": {
+        "id": "AS_Button_ddfffd0dd9d6489ba568c9b60e52d7e9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Home",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2a1d30b0ab54c9fb9b5b2a5e66cc500"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e019d1b3c7124a06a516fe3c9b420964",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var dataGrid = FormDataGrid.dataGrid1;\nvar user = Home.txtUsername.text;\nvar pass = Home.txtPassword.text;\nvar data = {loginId:\"mytext\", username:user, password:pass};\ndataGrid.addAll(data);",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___fcabdb09fb2e42998d058ff318b3d024",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "insertData",
+            "display": "insertData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

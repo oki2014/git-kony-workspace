@@ -1,0 +1,94 @@
+{
+    "idToKuidMapping": {
+        "desktop": {},
+        "masters": {},
+        "mobile": {
+            "FormDataGrid": "fb790e82b30848e0acb442520ab55df3",
+            "Home": "f2a1d30b0ab54c9fb9b5b2a5e66cc500",
+            "Home2": "h11333e1b2504761b7a08cc5b7ea0e1d"
+        },
+        "skins": {
+            "CopyslFbox0f21cc804770742": "s12ff073a54f4b549986b38ebcdbfb1b",
+            "slButtonGlossBlue": "s2d1124b3d8546ba9647e1ec017a333f",
+            "slButtonGlossRed": "sc37a86deab448289789645afb85e36b",
+            "slDataGridAltRow": "sc435896dc0548a0b67f85ebf4cb3bd0",
+            "slDataGridFocusedRow": "sb77089a61684d7ea800e1aced9bb0e8",
+            "slDataGridHead": "s62ae145947e4fc39756d7226d5f2e97",
+            "slDataGridRow": "s8f441092625420abf5c6b6ba6be0a99",
+            "slDynamicNotificationForm": "s361314d78f54af88c0094d15508b1d6",
+            "slFbox": "s3532a21e83f4162bc97bde62dd8cf37",
+            "slForm": "s8c38bd5a8274957918a4a6be85dd270",
+            "slPopup": "sf272e76560b44b3a9f99f965b808c30",
+            "slStaticNotificationForm": "sbe0367901b64f29b96b98a48dd8926c",
+            "slTextArea": "sc210291c0d54a93bfd3e9d6082cd026",
+            "slTextBox": "s359292988324863a388b9181598e1a0",
+            "slTitleBar": "sdf03a80aec745d8b081496d1f29306d",
+            "slWatchForm": "s03592cdd0c741159be8dc463ae66553"
+        },
+        "tablet": {},
+        "userwidgets": {}
+    },
+    "kuidDependencyMap": {
+        "s2d1124b3d8546ba9647e1ec017a333f": [
+            "fb790e82b30848e0acb442520ab55df3",
+            "f2a1d30b0ab54c9fb9b5b2a5e66cc500",
+            "h11333e1b2504761b7a08cc5b7ea0e1d"
+        ],
+        "s359292988324863a388b9181598e1a0": [
+            "fb790e82b30848e0acb442520ab55df3",
+            "f2a1d30b0ab54c9fb9b5b2a5e66cc500",
+            "h11333e1b2504761b7a08cc5b7ea0e1d"
+        ],
+        "s62ae145947e4fc39756d7226d5f2e97": [
+            "fb790e82b30848e0acb442520ab55df3"
+        ],
+        "s8c38bd5a8274957918a4a6be85dd270": [
+            "fb790e82b30848e0acb442520ab55df3",
+            "f2a1d30b0ab54c9fb9b5b2a5e66cc500",
+            "h11333e1b2504761b7a08cc5b7ea0e1d"
+        ],
+        "s8f441092625420abf5c6b6ba6be0a99": [
+            "fb790e82b30848e0acb442520ab55df3"
+        ],
+        "sb77089a61684d7ea800e1aced9bb0e8": [
+            "fb790e82b30848e0acb442520ab55df3"
+        ],
+        "sc210291c0d54a93bfd3e9d6082cd026": [
+            "fb790e82b30848e0acb442520ab55df3"
+        ],
+        "sc37a86deab448289789645afb85e36b": [
+            "fb790e82b30848e0acb442520ab55df3",
+            "f2a1d30b0ab54c9fb9b5b2a5e66cc500",
+            "h11333e1b2504761b7a08cc5b7ea0e1d"
+        ],
+        "sc435896dc0548a0b67f85ebf4cb3bd0": [
+            "fb790e82b30848e0acb442520ab55df3"
+        ],
+        "sdf03a80aec745d8b081496d1f29306d": [
+            "fb790e82b30848e0acb442520ab55df3",
+            "f2a1d30b0ab54c9fb9b5b2a5e66cc500",
+            "h11333e1b2504761b7a08cc5b7ea0e1d"
+        ]
+    },
+    "kuidInfo": {
+        "desktop": {},
+        "masters": {},
+        "mobile": {
+            "f2a1d30b0ab54c9fb9b5b2a5e66cc500": {
+                "id": "Home",
+                "templateType": "forms"
+            },
+            "fb790e82b30848e0acb442520ab55df3": {
+                "id": "FormDataGrid",
+                "templateType": "forms"
+            },
+            "h11333e1b2504761b7a08cc5b7ea0e1d": {
+                "id": "Home2",
+                "templateType": "forms"
+            }
+        },
+        "tablet": {},
+        "userwidgets": {}
+    },
+    "userWidgetsKuidToIdMap": {}
+}

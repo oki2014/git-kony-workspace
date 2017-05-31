@@ -1,0 +1,24 @@
+{
+    "AS_Button_ia986f39503c4de88ab1b53eee699c9e": {
+        "id": "AS_Button_ia986f39503c4de88ab1b53eee699c9e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormDataGrid",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fb790e82b30848e0acb442520ab55df3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hc73d2ef80014d91b4b60a80e68fef01",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var dataGrid = FormDataGrid.dataGrid1;\nvar data = [{loginId:\"mytext\", username:\"user\", password:\"pass\"}];\ndataGrid.addAll(data);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "AS_TextField_c76b895e11814ab98de9502b6aef6829": {
+        "id": "AS_TextField_c76b895e11814ab98de9502b6aef6829",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmSingUp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d85594e994774295b96e944e900059f2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____j44aca40f52a4b72a972ffc469aa9b89",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmSingUp",
+            "widgetId": "pwd",
+            "propertyName": "skin",
+            "propertyValue": "CopyslTextBox0be77e6d9b58d4c",
+            "itemKUID": "d85594e994774295b96e944e900059f2",
+            "widgetKUID": "f2395fc5e0df4fb28fec5b34abf04350",
+            "skinKUID": "sb92179db5c04ad296b62fdc1759f9d0",
+            "isSkinProperty": true,
+            "wType": "TextField",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.pwd"
+        }, {
+            "id": "IF_CONDITION__a54934a079264c4696112383ceeafe3c",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "frmSingUp.container.cnfrmpwd.text",
+                "operator": "!==",
+                "rightValueType": "widgetprop",
+                "rightValue": "frmSingUp.container.pwd.text",
+                "leftItemKUID": "d85594e994774295b96e944e900059f2",
+                "leftWidgetKUID": "i517abee830643d084793bb6e6274242",
+                "rightItemKUID": "d85594e994774295b96e944e900059f2",
+                "rightWidgetKUID": "f2395fc5e0df4fb28fec5b34abf04350"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET__g901672eb75844d09dea3c9f87194ec3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function AS_TextField_c76b895e11814ab98de9502b6aef6829(eventobject, changedtext) {\n    var self = this;\n    if ((self.view.container.cnfrmpwd.text !== self.view.container.pwd.text)) {\n      innerHTML=\"Error\";\n    }\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

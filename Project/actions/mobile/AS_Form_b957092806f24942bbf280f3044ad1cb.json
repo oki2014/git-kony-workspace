@@ -1,0 +1,24 @@
+{
+    "AS_Form_b957092806f24942bbf280f3044ad1cb": {
+        "id": "AS_Form_b957092806f24942bbf280f3044ad1cb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LandingPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "afd49d1bc983410bbebe1bb607fa1694"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d19eb6b2085e4751b31e84527a0112fe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "initializeUsername.call(this);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

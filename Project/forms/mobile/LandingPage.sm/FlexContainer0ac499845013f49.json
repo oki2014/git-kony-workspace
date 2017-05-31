@@ -1,0 +1,56 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "220dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "31dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s465c71dbc4c4846b5d6176c6bfbb7f3",
+    "_top_": {
+        "type": "string",
+        "value": "31dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "88.00%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "Image0c2838f07e65144"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlexContainer0ac499845013f49",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b1116b5d783e45f0b17b985cfa34ef87",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "LandingPage",
+    "pf": "LandingPage",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}
